@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B194BC0023C71BF8006835E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B194BBFF23C71BF8006835E3 /* AppDelegate.swift */; };
+		B194BC0223C71BF8006835E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B194BC0123C71BF8006835E3 /* SceneDelegate.swift */; };
+		B194BC0423C71BF8006835E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B194BC0323C71BF8006835E3 /* ViewController.swift */; };
+		B194BC0723C71BF8006835E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B194BC0523C71BF8006835E3 /* Main.storyboard */; };
+		B194BC0923C71BFC006835E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B194BC0823C71BFC006835E3 /* Assets.xcassets */; };
+		B194BC0C23C71BFC006835E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B194BC0A23C71BFC006835E3 /* LaunchScreen.storyboard */; };
+		B194BC1723C71BFD006835E3 /* renduIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B194BC1623C71BFD006835E3 /* renduIOSTests.swift */; };
+		B194BC2223C71BFD006835E3 /* renduIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B194BC2123C71BFD006835E3 /* renduIOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B194BC1323C71BFD006835E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B194BBF423C71BF8006835E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B194BBFB23C71BF8006835E3;
+			remoteInfo = renduIOS;
+		};
+		B194BC1E23C71BFD006835E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B194BBF423C71BF8006835E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B194BBFB23C71BF8006835E3;
+			remoteInfo = renduIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B194BBFC23C71BF8006835E3 /* renduIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = renduIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B194BBFF23C71BF8006835E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B194BC0123C71BF8006835E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B194BC0323C71BF8006835E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B194BC0623C71BF8006835E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B194BC0823C71BFC006835E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B194BC0B23C71BFC006835E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B194BC0D23C71BFC006835E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B194BC1223C71BFD006835E3 /* renduIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = renduIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B194BC1623C71BFD006835E3 /* renduIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = renduIOSTests.swift; sourceTree = "<group>"; };
+		B194BC1823C71BFD006835E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B194BC1D23C71BFD006835E3 /* renduIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = renduIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B194BC2123C71BFD006835E3 /* renduIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = renduIOSUITests.swift; sourceTree = "<group>"; };
+		B194BC2323C71BFD006835E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B194BBF923C71BF8006835E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B194BC0F23C71BFD006835E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B194BC1A23C71BFD006835E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B194BBF323C71BF8006835E3 = {
+			isa = PBXGroup;
+			children = (
+				B194BBFE23C71BF8006835E3 /* renduIOS */,
+				B194BC1523C71BFD006835E3 /* renduIOSTests */,
+				B194BC2023C71BFD006835E3 /* renduIOSUITests */,
+				B194BBFD23C71BF8006835E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B194BBFD23C71BF8006835E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B194BBFC23C71BF8006835E3 /* renduIOS.app */,
+				B194BC1223C71BFD006835E3 /* renduIOSTests.xctest */,
+				B194BC1D23C71BFD006835E3 /* renduIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B194BBFE23C71BF8006835E3 /* renduIOS */ = {
+			isa = PBXGroup;
+			children = (
+				B194BBFF23C71BF8006835E3 /* AppDelegate.swift */,
+				B194BC0123C71BF8006835E3 /* SceneDelegate.swift */,
+				B194BC0323C71BF8006835E3 /* ViewController.swift */,
+				B194BC0523C71BF8006835E3 /* Main.storyboard */,
+				B194BC0823C71BFC006835E3 /* Assets.xcassets */,
+				B194BC0A23C71BFC006835E3 /* LaunchScreen.storyboard */,
+				B194BC0D23C71BFC006835E3 /* Info.plist */,
+			);
+			path = renduIOS;
+			sourceTree = "<group>";
+		};
+		B194BC1523C71BFD006835E3 /* renduIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				B194BC1623C71BFD006835E3 /* renduIOSTests.swift */,
+				B194BC1823C71BFD006835E3 /* Info.plist */,
+			);
+			path = renduIOSTests;
+			sourceTree = "<group>";
+		};
+		B194BC2023C71BFD006835E3 /* renduIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B194BC2123C71BFD006835E3 /* renduIOSUITests.swift */,
+				B194BC2323C71BFD006835E3 /* Info.plist */,
+			);
+			path = renduIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B194BBFB23C71BF8006835E3 /* renduIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B194BC2623C71BFD006835E3 /* Build configuration list for PBXNativeTarget "renduIOS" */;
+			buildPhases = (
+				B194BBF823C71BF8006835E3 /* Sources */,
+				B194BBF923C71BF8006835E3 /* Frameworks */,
+				B194BBFA23C71BF8006835E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = renduIOS;
+			productName = renduIOS;
+			productReference = B194BBFC23C71BF8006835E3 /* renduIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B194BC1123C71BFD006835E3 /* renduIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B194BC2923C71BFD006835E3 /* Build configuration list for PBXNativeTarget "renduIOSTests" */;
+			buildPhases = (
+				B194BC0E23C71BFD006835E3 /* Sources */,
+				B194BC0F23C71BFD006835E3 /* Frameworks */,
+				B194BC1023C71BFD006835E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B194BC1423C71BFD006835E3 /* PBXTargetDependency */,
+			);
+			name = renduIOSTests;
+			productName = renduIOSTests;
+			productReference = B194BC1223C71BFD006835E3 /* renduIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B194BC1C23C71BFD006835E3 /* renduIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B194BC2C23C71BFD006835E3 /* Build configuration list for PBXNativeTarget "renduIOSUITests" */;
+			buildPhases = (
+				B194BC1923C71BFD006835E3 /* Sources */,
+				B194BC1A23C71BFD006835E3 /* Frameworks */,
+				B194BC1B23C71BFD006835E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B194BC1F23C71BFD006835E3 /* PBXTargetDependency */,
+			);
+			name = renduIOSUITests;
+			productName = renduIOSUITests;
+			productReference = B194BC1D23C71BFD006835E3 /* renduIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B194BBF423C71BF8006835E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = mc26;
+				TargetAttributes = {
+					B194BBFB23C71BF8006835E3 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					B194BC1123C71BFD006835E3 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B194BBFB23C71BF8006835E3;
+					};
+					B194BC1C23C71BFD006835E3 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = B194BBFB23C71BF8006835E3;
+					};
+				};
+			};
+			buildConfigurationList = B194BBF723C71BF8006835E3 /* Build configuration list for PBXProject "renduIOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B194BBF323C71BF8006835E3;
+			productRefGroup = B194BBFD23C71BF8006835E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B194BBFB23C71BF8006835E3 /* renduIOS */,
+				B194BC1123C71BFD006835E3 /* renduIOSTests */,
+				B194BC1C23C71BFD006835E3 /* renduIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B194BBFA23C71BF8006835E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B194BC0C23C71BFC006835E3 /* LaunchScreen.storyboard in Resources */,
+				B194BC0923C71BFC006835E3 /* Assets.xcassets in Resources */,
+				B194BC0723C71BF8006835E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B194BC1023C71BFD006835E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B194BC1B23C71BFD006835E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B194BBF823C71BF8006835E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B194BC0423C71BF8006835E3 /* ViewController.swift in Sources */,
+				B194BC0023C71BF8006835E3 /* AppDelegate.swift in Sources */,
+				B194BC0223C71BF8006835E3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B194BC0E23C71BFD006835E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B194BC1723C71BFD006835E3 /* renduIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B194BC1923C71BFD006835E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B194BC2223C71BFD006835E3 /* renduIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B194BC1423C71BFD006835E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B194BBFB23C71BF8006835E3 /* renduIOS */;
+			targetProxy = B194BC1323C71BFD006835E3 /* PBXContainerItemProxy */;
+		};
+		B194BC1F23C71BFD006835E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B194BBFB23C71BF8006835E3 /* renduIOS */;
+			targetProxy = B194BC1E23C71BFD006835E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B194BC0523C71BF8006835E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B194BC0623C71BF8006835E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B194BC0A23C71BFC006835E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B194BC0B23C71BFC006835E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B194BC2423C71BFD006835E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B194BC2523C71BFD006835E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B194BC2723C71BFD006835E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2V435AV3L;
+				INFOPLIST_FILE = renduIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.renduIOSAdrien.ios.renduIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B194BC2823C71BFD006835E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2V435AV3L;
+				INFOPLIST_FILE = renduIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.renduIOSAdrien.ios.renduIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B194BC2A23C71BFD006835E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2V435AV3L;
+				INFOPLIST_FILE = renduIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.renduIOSAdrien.ios.renduIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/renduIOS.app/renduIOS";
+			};
+			name = Debug;
+		};
+		B194BC2B23C71BFD006835E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2V435AV3L;
+				INFOPLIST_FILE = renduIOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.renduIOSAdrien.ios.renduIOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/renduIOS.app/renduIOS";
+			};
+			name = Release;
+		};
+		B194BC2D23C71BFD006835E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2V435AV3L;
+				INFOPLIST_FILE = renduIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.renduIOSAdrien.ios.renduIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = renduIOS;
+			};
+			name = Debug;
+		};
+		B194BC2E23C71BFD006835E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2V435AV3L;
+				INFOPLIST_FILE = renduIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.renduIOSAdrien.ios.renduIOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = renduIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B194BBF723C71BF8006835E3 /* Build configuration list for PBXProject "renduIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B194BC2423C71BFD006835E3 /* Debug */,
+				B194BC2523C71BFD006835E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B194BC2623C71BFD006835E3 /* Build configuration list for PBXNativeTarget "renduIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B194BC2723C71BFD006835E3 /* Debug */,
+				B194BC2823C71BFD006835E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B194BC2923C71BFD006835E3 /* Build configuration list for PBXNativeTarget "renduIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B194BC2A23C71BFD006835E3 /* Debug */,
+				B194BC2B23C71BFD006835E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B194BC2C23C71BFD006835E3 /* Build configuration list for PBXNativeTarget "renduIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B194BC2D23C71BFD006835E3 /* Debug */,
+				B194BC2E23C71BFD006835E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B194BBF423C71BF8006835E3 /* Project object */;
+}

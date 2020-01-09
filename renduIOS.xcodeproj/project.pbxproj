@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D1E6D2FC1B7A71CFDBAC515 /* Pods_renduIOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85AA460212418FFD630AF3F6 /* Pods_renduIOSTests.framework */; };
+		5B3AFB3C2CA435CCE1A5E8DC /* Pods_renduIOS_renduIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A3E852548A0752AF98A915 /* Pods_renduIOS_renduIOSUITests.framework */; };
+		A502D1D2ECD44134EA44E680 /* Pods_renduIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C97B2F748307722CE91438F /* Pods_renduIOS.framework */; };
+		B16AC57523C720BB00B16053 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16AC57423C720BB00B16053 /* SearchViewController.swift */; };
+		B16AC57823C723AB00B16053 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16AC57723C723AB00B16053 /* ListTableViewCell.swift */; };
 		B194BC0023C71BF8006835E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B194BBFF23C71BF8006835E3 /* AppDelegate.swift */; };
 		B194BC0223C71BF8006835E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B194BC0123C71BF8006835E3 /* SceneDelegate.swift */; };
-		B194BC0423C71BF8006835E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B194BC0323C71BF8006835E3 /* ViewController.swift */; };
 		B194BC0723C71BF8006835E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B194BC0523C71BF8006835E3 /* Main.storyboard */; };
 		B194BC0923C71BFC006835E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B194BC0823C71BFC006835E3 /* Assets.xcassets */; };
 		B194BC0C23C71BFC006835E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B194BC0A23C71BFC006835E3 /* LaunchScreen.storyboard */; };
@@ -35,10 +39,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F700E6E774C98BF1DE5CA63 /* Pods-renduIOS-renduIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-renduIOS-renduIOSUITests.release.xcconfig"; path = "Target Support Files/Pods-renduIOS-renduIOSUITests/Pods-renduIOS-renduIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1702F6DDFDF0A54283EEBA2A /* Pods-renduIOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-renduIOSTests.debug.xcconfig"; path = "Target Support Files/Pods-renduIOSTests/Pods-renduIOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D700E6EE8395592C0AF1087 /* Pods-renduIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-renduIOS.release.xcconfig"; path = "Target Support Files/Pods-renduIOS/Pods-renduIOS.release.xcconfig"; sourceTree = "<group>"; };
+		55A3E852548A0752AF98A915 /* Pods_renduIOS_renduIOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_renduIOS_renduIOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD3FD4B625F9F010216FA72 /* Pods-renduIOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-renduIOSTests.release.xcconfig"; path = "Target Support Files/Pods-renduIOSTests/Pods-renduIOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		85AA460212418FFD630AF3F6 /* Pods_renduIOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_renduIOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C97B2F748307722CE91438F /* Pods_renduIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_renduIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0F37E487082D908BC6E9E02 /* Pods-renduIOS-renduIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-renduIOS-renduIOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-renduIOS-renduIOSUITests/Pods-renduIOS-renduIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFB2A093932CA15F474A17E1 /* Pods-renduIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-renduIOS.debug.xcconfig"; path = "Target Support Files/Pods-renduIOS/Pods-renduIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B16AC57423C720BB00B16053 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B16AC57723C723AB00B16053 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		B194BBFC23C71BF8006835E3 /* renduIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = renduIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B194BBFF23C71BF8006835E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B194BC0123C71BF8006835E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B194BC0323C71BF8006835E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B194BC0623C71BF8006835E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B194BC0823C71BFC006835E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B194BC0B23C71BFC006835E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A502D1D2ECD44134EA44E680 /* Pods_renduIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D1E6D2FC1B7A71CFDBAC515 /* Pods_renduIOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B3AFB3C2CA435CCE1A5E8DC /* Pods_renduIOS_renduIOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3AE9D7E91F7CAABB876D8FBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C97B2F748307722CE91438F /* Pods_renduIOS.framework */,
+				55A3E852548A0752AF98A915 /* Pods_renduIOS_renduIOSUITests.framework */,
+				85AA460212418FFD630AF3F6 /* Pods_renduIOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7593F30F8FABF36D31AD1D5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFB2A093932CA15F474A17E1 /* Pods-renduIOS.debug.xcconfig */,
+				2D700E6EE8395592C0AF1087 /* Pods-renduIOS.release.xcconfig */,
+				A0F37E487082D908BC6E9E02 /* Pods-renduIOS-renduIOSUITests.debug.xcconfig */,
+				0F700E6E774C98BF1DE5CA63 /* Pods-renduIOS-renduIOSUITests.release.xcconfig */,
+				1702F6DDFDF0A54283EEBA2A /* Pods-renduIOSTests.debug.xcconfig */,
+				7BD3FD4B625F9F010216FA72 /* Pods-renduIOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B16AC57223C7202900B16053 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B16AC57423C720BB00B16053 /* SearchViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B16AC57323C7205500B16053 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				B194BC0523C71BF8006835E3 /* Main.storyboard */,
+				B194BC0A23C71BFC006835E3 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		B16AC57623C7237200B16053 /* ViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B16AC57723C723AB00B16053 /* ListTableViewCell.swift */,
+			);
+			path = ViewCell;
+			sourceTree = "<group>";
+		};
 		B194BBF323C71BF8006835E3 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +148,8 @@
 				B194BC1523C71BFD006835E3 /* renduIOSTests */,
 				B194BC2023C71BFD006835E3 /* renduIOSUITests */,
 				B194BBFD23C71BF8006835E3 /* Products */,
+				7593F30F8FABF36D31AD1D5D /* Pods */,
+				3AE9D7E91F7CAABB876D8FBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +166,12 @@
 		B194BBFE23C71BF8006835E3 /* renduIOS */ = {
 			isa = PBXGroup;
 			children = (
+				B16AC57623C7237200B16053 /* ViewCell */,
+				B16AC57223C7202900B16053 /* ViewControllers */,
+				B16AC57323C7205500B16053 /* StoryBoards */,
 				B194BBFF23C71BF8006835E3 /* AppDelegate.swift */,
 				B194BC0123C71BF8006835E3 /* SceneDelegate.swift */,
-				B194BC0323C71BF8006835E3 /* ViewController.swift */,
-				B194BC0523C71BF8006835E3 /* Main.storyboard */,
 				B194BC0823C71BFC006835E3 /* Assets.xcassets */,
-				B194BC0A23C71BFC006835E3 /* LaunchScreen.storyboard */,
 				B194BC0D23C71BFC006835E3 /* Info.plist */,
 			);
 			path = renduIOS;
@@ -135,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B194BC2623C71BFD006835E3 /* Build configuration list for PBXNativeTarget "renduIOS" */;
 			buildPhases = (
+				80002BF2653F700A4357353E /* [CP] Check Pods Manifest.lock */,
 				B194BBF823C71BF8006835E3 /* Sources */,
 				B194BBF923C71BF8006835E3 /* Frameworks */,
 				B194BBFA23C71BF8006835E3 /* Resources */,
@@ -152,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B194BC2923C71BFD006835E3 /* Build configuration list for PBXNativeTarget "renduIOSTests" */;
 			buildPhases = (
+				021CE595BCB79306536FCEEF /* [CP] Check Pods Manifest.lock */,
 				B194BC0E23C71BFD006835E3 /* Sources */,
 				B194BC0F23C71BFD006835E3 /* Frameworks */,
 				B194BC1023C71BFD006835E3 /* Resources */,
@@ -170,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B194BC2C23C71BFD006835E3 /* Build configuration list for PBXNativeTarget "renduIOSUITests" */;
 			buildPhases = (
+				B81C272657D8FE7EAF683F5F /* [CP] Check Pods Manifest.lock */,
 				B194BC1923C71BFD006835E3 /* Sources */,
 				B194BC1A23C71BFD006835E3 /* Frameworks */,
 				B194BC1B23C71BFD006835E3 /* Resources */,
@@ -254,12 +324,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		021CE595BCB79306536FCEEF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-renduIOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80002BF2653F700A4357353E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-renduIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B81C272657D8FE7EAF683F5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-renduIOS-renduIOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B194BBF823C71BF8006835E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B194BC0423C71BF8006835E3 /* ViewController.swift in Sources */,
+				B16AC57523C720BB00B16053 /* SearchViewController.swift in Sources */,
+				B16AC57823C723AB00B16053 /* ListTableViewCell.swift in Sources */,
 				B194BC0023C71BF8006835E3 /* AppDelegate.swift in Sources */,
 				B194BC0223C71BF8006835E3 /* SceneDelegate.swift in Sources */,
 			);
@@ -432,6 +572,7 @@
 		};
 		B194BC2723C71BFD006835E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFB2A093932CA15F474A17E1 /* Pods-renduIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +591,7 @@
 		};
 		B194BC2823C71BFD006835E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D700E6EE8395592C0AF1087 /* Pods-renduIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +610,7 @@
 		};
 		B194BC2A23C71BFD006835E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1702F6DDFDF0A54283EEBA2A /* Pods-renduIOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +633,7 @@
 		};
 		B194BC2B23C71BFD006835E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD3FD4B625F9F010216FA72 /* Pods-renduIOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +656,7 @@
 		};
 		B194BC2D23C71BFD006835E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0F37E487082D908BC6E9E02 /* Pods-renduIOS-renduIOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +677,7 @@
 		};
 		B194BC2E23C71BFD006835E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F700E6E774C98BF1DE5CA63 /* Pods-renduIOS-renduIOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
